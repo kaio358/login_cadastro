@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+}
+
+#principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#lateral_esquerda{
+    background: url("../imagem/espaco.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(10px);
+    padding: 260px;
+    color: white;
+    font-family: Brush Script MT;
+    text-shadow: 1px 2px black;
+    font-size: 50px;
+
+}
+
+
+#login_cadastro{
+    
+    background-image: linear-gradient(#2e1c69,#3c1ca7 , #4a21cd ,#3164e6) ;
+    text-align: center;
+    color:white;
+    
+}
+
+
+
+#outras_formas{
+   
+    padding: 40px;
+    
+}
+
+#outras_formas img{
+   
+    padding: 10px;
+    
+}
+
+.texto {
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 8px;
+    
+  }
+  .texto::before,
+  .texto::after {
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    left: -6em;
+  }
+  .texto::after {
+    left: initial;
+    right: -6em;
+  }
+  
+.campo{
+    border-radius:25px;
+    border: 3px solid rgb(93, 93, 255);
+    background-color: rgba(0, 0, 0, 0);
+    width: 30%;
+    height: 5vh;
+    color:white;
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px;
+}
+#login_cadastro input::placeholder{
+    
+    color: white;
+}
+button{
+    margin-top: 10px;
+    width: 30%;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 3px solid rgb(93, 93, 255);
+    border-radius: 8px;
+}
